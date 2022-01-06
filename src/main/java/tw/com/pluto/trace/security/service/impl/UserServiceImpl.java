@@ -7,7 +7,7 @@ import tw.com.pluto.trace.security.model.User;
 import tw.com.pluto.trace.security.service.UserService;
 
 @Service
-public class UserServicceImpl implements UserService {
+public class UserServiceImpl implements UserService {
     @Autowired
     private UserRepository userRepository;
 
